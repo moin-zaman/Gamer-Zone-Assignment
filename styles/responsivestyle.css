@@ -20,6 +20,29 @@
         font-size: 30px;
     }
 
+    .online_title{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .online_description{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+    .Online_Videos {
+        max-width: 1450px;
+        min-height: 40vh;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+
+    
+
+
 
     
 }

@@ -52,6 +52,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid black; */
 }
 
 
@@ -122,6 +123,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 6.5rem;
+    /* border: 1px solid black; */
 }
 
 .f_icons {
@@ -166,5 +168,69 @@ a {
 .header_description2 img {
     width: 100%;
     height: 100%;
+}
+
+
+/* Main section Styles */
+
+.Online_Games_Container{
+    margin-top: 70px;
+}
+
+.online_title{
+    max-width: 750px;
+    margin: 0 auto;
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0B0223;
+}
+
+.online_title span {
+    color: violet;
+}
+
+.online_description{
+
+    max-width: 550px;
+    font-size: 15px;
+    margin: 0 auto;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+
+.Online_Videos {
+    max-width: 1450px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.Online_Videos img{
+    max-width: 270px;
+}
+
+
+.Online_Videos .img p{
+    padding-top: 1rem;
+}
+
+
+.Online_Videos .img p{
+    max-width: 270px;
+    align-items: center;
+
+
 }
 
