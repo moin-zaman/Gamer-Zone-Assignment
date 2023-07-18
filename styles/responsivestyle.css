@@ -1,0 +1,26 @@
+/* Responsive Mobile designs */
+@media screen and (max-width: 576px) {
+    .navContainer, .nav-right{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+        height: auto;
+    }
+
+
+    .header_description{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 2rem;
+        height: auto;
+        width: auto;
+    }
+
+    .header_description1 .goat{
+        font-size: 30px;
+    }
+
+
+    
+}
+
