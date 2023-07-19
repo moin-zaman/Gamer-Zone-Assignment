@@ -320,7 +320,7 @@ a {
     width: 90%;
 }
 
-.play_img2 img {
+.play_imgg img {
     position: absolute;
     width: 45%;
     height: 50%;
@@ -348,6 +348,10 @@ a {
     padding: 2px;
 
 
+}
+
+.game_mode p{
+    font-weight: 700;
 }
 
 .game_mode:hover {
@@ -382,8 +386,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    column-gap: 60px;
     color: #FFF;
+    padding-top: 2rem;
 }
 
 .footer_container .footer_link li {
@@ -395,8 +400,8 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    gap: 1rem;
-    margin-top: 50px;
+    gap: 1.5rem;
+    padding-top: 45px;
 }
 
 .website_policy {
@@ -405,7 +410,7 @@ a {
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
-    color: #FFF;
+    color:#4EC5F7;
 }
 
 .website_policy li {
@@ -413,8 +418,8 @@ a {
 }
 
 .copy_right_tag {
-    color: #FFF;
+    color:#4EC5F7;
     text-align: center;
     font-size: 13px;
-    margin-top: 30px;
+    padding-top: 40px;
 }
