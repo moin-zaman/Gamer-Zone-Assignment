@@ -9,7 +9,6 @@
         height: auto;
     }
 
-
     .header_description {
         flex-direction: column-reverse;
         justify-content: center;
@@ -20,6 +19,7 @@
 
     .header_description1 .goat {
         font-size: 30px;
+        flex-wrap: wrap;
     }
 
     .online_title {
@@ -30,6 +30,7 @@
     .online_description {
         text-align: center;
         font-size: 0.6rem;
+        flex-wrap: wrap;
     }
 
     .Online_Videos {
