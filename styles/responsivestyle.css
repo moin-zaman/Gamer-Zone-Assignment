@@ -1,6 +1,8 @@
 /* Responsive Mobile designs */
 @media screen and (max-width: 576px) {
-    .navContainer, .nav-right{
+
+    .navContainer,
+    .nav-right {
         flex-direction: column;
         justify-content: center;
         padding-top: 2rem;
@@ -8,7 +10,7 @@
     }
 
 
-    .header_description{
+    .header_description {
         flex-direction: column-reverse;
         justify-content: center;
         padding-top: 2rem;
@@ -16,16 +18,16 @@
         width: auto;
     }
 
-    .header_description1 .goat{
+    .header_description1 .goat {
         font-size: 30px;
     }
 
-    .online_title{
+    .online_title {
         text-align: center;
         font-size: 1rem;
     }
 
-    .online_description{
+    .online_description {
         text-align: center;
         font-size: 0.6rem;
     }
@@ -40,10 +42,47 @@
         /* border: 1px solid black; */
     }
 
-    
+
+    .play_games {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    .play_container .play_title {
+        font-size: 1.7rem;
+        font-weight: 900;
+    }
+
+    .play_games .play_description {
+        padding-top: 20px;
+        font-weight: 400;
+        max-width: 1000px;
+    }
+
+    .play_img {
+        padding-top: 20px;
+        width: 50%;
+        position: relative;
+
+    }
+
+    .play_img img {
+        width: 90%;
+    }
+
+    .play_img2 img {
+        position: absolute;
+        width: 45%;
+        height: 50%;
+        right: 180px;
+        top: 135px;
+    }
 
 
 
-    
+
+
+
 }
-
