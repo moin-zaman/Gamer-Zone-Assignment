@@ -266,3 +266,47 @@
     }
 
 }
+
+
+@media screen and (min-width: 220px) and (max-width: 480px)
+{
+    .play_games {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .play_container .play_title {
+        font-size: 1.7rem;
+        font-weight: 900;
+    }
+
+    .play_games .play_description {
+        padding-top: 20px;
+        font-weight: 400;
+        max-width: 1000px;
+    }
+
+    .play_img {
+        padding-top: 20px;
+        width: 50%;
+        position: relative;
+        display:flex;
+        justify-content: center;
+
+    }
+
+    .play_img img {
+        width: 70%;
+    }
+
+    .play_imgg img {
+        position: absolute;
+        width: 55%;
+        height: 67%;
+        right: 200px;
+        top: 200px;
+    }
+
+}
