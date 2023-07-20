@@ -84,6 +84,8 @@
 
 .games_section{
     /* margin: 0 auto; */
+    max-width:70%;
+    margin-right: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -190,8 +192,8 @@
 
     .play_imgg img {
         position: absolute;
-        width: 45%;
-        height: 50%;
+        max-width: 60%;
+        height: 65%;
         right: 240px;
         top: 200px;
     }
@@ -199,6 +201,7 @@
 
     .games_section{
         /* margin: 0 auto; */
+        margin-top: 15px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
