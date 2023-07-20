@@ -76,9 +76,9 @@
     .play_imgg img {
         position: absolute;
         width: 53%;
-        height: 58%;
+        height: 59%;
         right: 180px;
-        top: 135px;
+        top: 150px;
     }
 
 
@@ -165,7 +165,7 @@
         flex-direction: column;
         justify-content: center;
         padding-top: 2rem;
-        height: auto;
+        margin-bottom: 30px;
     }
 
     .play_container .play_title {
