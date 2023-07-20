@@ -367,9 +367,11 @@ a {
 .play_imgg img {
     position: absolute;
     width: 45%;
-    height: 57%;
+    height: 63%;
     right: 400px;
     top: 270px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .games_section {
